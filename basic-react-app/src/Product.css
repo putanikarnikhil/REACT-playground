@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+}
+
+/* Center container using flex */
+.page-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+/* Inner content */
+.product-wrapper {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.product-wrapper h4 a {
+  text-decoration: underline;
+  color: #0d3b66;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-card {
+  border-top: 1px solid black;
+  background-color: lightgray;
+  padding: 20px 0;
+  font-size: 18px;
+}
