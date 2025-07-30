@@ -1,0 +1,13 @@
+.ticket {
+  border: 2px dashed pink;
+  border-radius: 14px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto;
+  width: max-content;
+  font-size: 24px;
+  background-color: #fff0f5;
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.2);
+}
